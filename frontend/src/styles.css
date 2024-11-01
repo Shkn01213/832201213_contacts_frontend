@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+
+.app {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: left;
+    line-height: 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    background-color: #0056b3;
+}
+
+#contactForm {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contactForm button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
+
+.search-label {
+    font-size: 16px;
+    color: #333;
+}
+
+/* 为 select 元素设置统一的外观 */
+#searchType {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* 鼠标悬停时的效果 */
+#searchType:hover {
+    border-color: #007bff;
+    background-color: #5596ff;
+}
+
+/* 选中时的边框颜色 */
+#searchType:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.3);
+}
+
+#search {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#searchButton {
+    width: 10%;
+    background-color: #20c997;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #1ba86e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center; /* 让文本在单元格内居中 */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* 设置每列宽度一致 */
+th, td {
+    width: 25%; /* 根据列数调整宽度，4列则为25% */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* ... 其他样式 ... */
+
+.edit-input {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    width: calc(100% - 16px);
+}
+
+button {
+    margin-right: 10px;
+}
+
+.filter-button {
+    background-color: #ccc; /* 灰色背景 */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-button.active {
+    background-color: #007bff; /* 蓝色背景当激活 */
+    color: white;
+}
+
+/* 新增编辑状态下的输入框样式 */
+.edit-input {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    width: calc(100% - 16px);
+}
+
+.operation-cell button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* 收藏按钮 */
+.favorite-btn {
+    background-color: #ff9800;
+}
+.favorite-btn:hover {
+    background-color: #e68900;
+}
+
+/* 编辑按钮 */
+.edit-btn {
+    background-color: #4caf50;
+}
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+/* 删除按钮 */
+.delete-btn {
+    background-color: #f44336;
+}
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* 保存和取消按钮 */
+.save-btn {
+    background-color: #2196f3;
+}
+.save-btn:hover {
+    background-color: #007bff;
+}
+
+.cancel-btn {
+    background-color: #9e9e9e;
+}
+.cancel-btn:hover {
+    background-color: #757575;
+}

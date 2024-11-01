@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>通讯录</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <h1>欢迎使用秒记通讯录</h1>
+        <div class="button-group">
+            <button class="filter-button" data-filter="all">全部联系人</button>
+            <button class="filter-button" data-filter="favorite">收藏</button>
+        </div>
+        <h2>添加联系人</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="姓名" required />
+            <input type="text" id="phone" placeholder="电话" required />
+            <input type="email" id="email" placeholder="邮箱" />
+            <button type="submit">确认添加</button>
+        </form>
+        <h3>搜索联系人</h3>
+        <div class="search-container">
+            <label for="searchType" class="search-label">选择搜索类型:</label>
+            <select id="searchType">
+                <option value="name">姓名</option>
+                <option value="phone">电话</option>
+                <option value="email">邮箱</option>
+            </select>
+            <input type="text" id="search" placeholder="输入搜索内容" />
+            <button id="searchButton">查找</button>
+        </div>        
+        <h3>联系人列表 (当前共<span id="contactCount">0</span>条)</h3>
+        <table id="contactsTable">
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>电话</th>
+                    <th>邮箱</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 联系人列表将在这里动态生成 -->
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
