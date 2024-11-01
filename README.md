@@ -53,10 +53,6 @@ The project uses the following API endpoints for server interaction:
 - **Search**: Enables search by name, phone number, or email based on selected criteria.
 - **Filter**: Filter between all contacts and favorites using filter buttons.
 
-## Example Screenshot
-
-![Application Screenshot](screenshot.png)
-
 ## Notes
 
 - Update the API endpoint according to your backend configuration.
