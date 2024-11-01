@@ -1,4 +1,4 @@
-# MiaoJi Address Book
+# Address Book
 
 Address Book is a simple contact management application where you can add, edit, delete, favorite, and search contacts. The project includes HTML, CSS, and JavaScript files that provide a front-end interface for managing contacts and interacting with an API.
 
